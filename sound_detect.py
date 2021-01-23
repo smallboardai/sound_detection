@@ -6,9 +6,9 @@ import audioop
 mylevel = 700
 SAMPLING_RATE = 22050
 NUM_SAMPLES = 1024
+os.system('clear')
 while True:
     time.sleep(.15)
-    os.system('clear')
     _stream = None
     myrms = 0
     pa = pyaudio.PyAudio()
@@ -21,4 +21,4 @@ while True:
         print("gotcha")         
         print(myrms)
         time.sleep(1)
-    
+        os.system('clear')
