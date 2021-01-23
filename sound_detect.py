@@ -1,8 +1,7 @@
-import sys
 import os
-import audioop
 import time
 import pyaudio
+import audioop
 
 mylevel = 700
 SAMPLING_RATE = 22050
